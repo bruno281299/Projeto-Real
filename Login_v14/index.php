@@ -79,7 +79,7 @@ session_start();
 					</div>
 				</form>
 						<button class="login-form-btn">
-							Cadastrar-se
+							Cadastrarrrr-se
 						</button>
 					
                <?php
