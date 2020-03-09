@@ -72,15 +72,15 @@ session_start();
 							</a>
 						</div>
 					</div>
-					<div class="container-login100-form-btn">
+					<div class="container-login100-form-btn d-flex justify-content-between">
 						<button class="login100-form-btn">
 							Entrar
 						</button>
-					</div>
-				</form>
-						<button class="login-form-btn">
+						<button class="login-form-btn" type="button">
 							Cadastrar-se
 						</button>
+						</div>
+				</form>
 					
                <?php
                     if(isset($_SESSION['nao_autenticado'])):
