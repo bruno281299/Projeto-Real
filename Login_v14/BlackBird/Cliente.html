@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+  
+    <link rel="stylesheet" href="rodape/http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="rodape/Footer-with-button-logo.css">
+
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css"> 
+
+    <link rel="stylesheet" href="style/css/style.css">
+
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel='stylesheet' href="style/estilo.css" />
+
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css">
+
+    <title>Vertical 3W</title>
+
+  </head>
+  
+  <body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-gradient-warning py-0">
+  <div class="container">
+    <a class="navbar-brand h1 mb-0" href="Inicio.html">BlackBird</a>
+       <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarSite">
+           <span class="navbar-toggler-icon"></span> 
+       </button>
+            <div class="collapse navbar-collapse" id="navbarSite">
+           <ul class="navbar-nav mr-auto">        
+              <li>
+                <a class="nav-link p-4" href="Inicio.html">Início</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link p-4 dropdown-toggle" href="#" id="dropdownSite" data-toggle="dropdown">Cliente</a>
+                <div class="dropdown-menu m-0">
+                  <a class="dropdown-item" href="Cliente.html">Cadastrar Cliente</a>
+                </div>
+              </li>
+              <li>
+                <a class="nav-link p-4" href="Projetos.html">Projetos</a>
+              </li>
+              <li>
+                <a class="nav-link p-4" href="Tarefas.html">Tarefas</a>
+              </li>
+              <li>
+               <a class="nav-link p-4" href="Bibliotecas de Documentos.html">Bibliotecas de Documentos</a>
+              </li>
+              <li>
+               <a class="nav-link p-4" href="Cartão Tempo.html">Cartão Tempo</a>
+              </li>
+          </ul>
+       </div>
+    </div>
+</nav>
+
+<!-- Formulario -->
+
+<br><br>
+<div class="container">
+  <div class="row">
+    <div class="col-12 text-center my-2">
+      <h1 class="display-4"><i class="fa fa-paper-plane text-dark" aria-hidden="true"></i>  Cadastrar Cliente</h1>
+    </div>
+  </div>
+  <div class="row justify-content-center ymb-5">
+    <div class="col-sm-12 col-mb-10 col-lg-8">
+      <form>
+        <div class="form-row">
+          <div class="form-group col-sm-3">
+            <label for="inputCEP">CNPJ: </label>
+          <input type="text" id="inputCNPJ" class="form-control"  placeholder="CNPJ"  required minlength="14" maxlength="14" onkeypress="$(this).mask('00.000.000/0000-00');"> 
+          </div>
+          <div class="form-group col-sm-9">
+            <label for="inputNome Fantasia">Nome Fantasia: </label>
+            <input type="text" class="form-control" id="inputNome Fantasia" placeholder="Nome Fantasia" required>
+            </div>
+            <div class="form-group col-sm-6">
+            <label for="inputRazão Social">Razão Social: </label>
+            <input type="text" class="form-control" id="inputRazão Social" placeholder="Razão Social" required>
+          </div>
+          <div class="form-group col-sm-3">
+          <label for="inputTelefine">Telefone: </label>
+          <input type="text" id="inputTelefone" class="form-control"  placeholder="Telefone"  required>           
+          </div>
+          <div class="form-group col-sm-3">
+          <label for="inputCelular">Celular: </label>
+          <input type="text" id="inputCelular" class="form-control"  placeholder="Celular"  required>           
+          </div>
+            <div class="form-group col-sm-6">
+          <label for="inputEmail">Email: </label>
+          <input type="text" class="form-control" id="inputEmail" placeholder="nome@exemplo.com" required>            
+          </div>
+          <div class="form-group col-sm-6">
+          <label for="inputLogradouro">Logradouro: </label>
+          <input type="text" class="form-control" id="inputLogradouro" placeholder="Logradouro" required>            
+          </div>
+          <div class="form-group col-sm-5">
+          <label for="inputEnd">Rua: </label>
+          <input type="text" class="form-control" id="inputEnd" placeholder="Rua" required>            
+          </div>
+          <div class="form-group col-sm-5">
+          <label for="inputBairro">Bairro: </label>
+          <input type="text" class="form-control" id="inputBairro" placeholder="Bairro" required>            
+          </div>
+          <div class="form-group col-sm-2">
+          <label for="inputNumero">Número: </label>
+          <input type="text" id="inputNumero" class="form-control"  placeholder="Número"  required>           
+          </div>
+          </div>
+           <div class="form-row">
+          <div class="form-group col-sm-6">
+            <label for="inputCidade">Cidade: </label>
+            <input type="text" class="form-control" id="inputCidade" placeholder="Cidade" required>
+          </div>
+          <div class="form-group col-sm-4">
+            <label for="inputEst">Estado: </label>
+            <select id="inputEst" class="form-control" required>
+              <option value="" selected>Escolha...</option>
+              <option value="Acre"> Acre </option>
+              <option> Alagoas </option>
+              <option> Amapá </option>
+              <option> Amazonas </option>
+              <option> Bahia </option>
+              <option> Ceará </option>
+              <option> Distrito Federal </option>
+              <option> Espírito Santo </option>
+              <option> Goiás </option>
+              <option> Maranhão </option>
+              <option> Mato Grosso </option>
+              <option> Mato Grosso do Sul </option>
+              <option> Minas Gerais </option>
+              <option> Pará </option>
+              <option> Paraíba </option>
+              <option> Paraná </option>
+              <option> Pernambuco </option>
+              <option> Piauí </option>
+              <option> Rio de Janeiro </option>
+              <option> Rio Grande do Norte </option>
+              <option> Rio Grande do Sul </option>
+              <option> Rondônia </option>
+              <option> Roraima </option>
+              <option> Santa Catarina </option>
+              <option> São Paulo </option>
+              <option> Sergipe </option>
+              <option> Tocantins </option>
+            </select>
+          </div>
+          <div class="form-group col-sm-2">
+          <label for="inputCEP">CEP: </label>
+          <input type="text" id="inputCEP" class="form-control"  placeholder="CEP"  required minlength="8" maxlength="8" onkeypress="$(this).mask('000.000.000-00');">   
+          </div>
+          </div>
+        <div class="form-row">
+          <div class="form-group col-sm-12">
+          </div>
+        </div>
+        <div class="form-row">
+        <div class="col-sm-12">
+        <button type="submit" class="btn btn-dark">Cadastrar</button> 
+          <a tabindex="0" class="btn btn-secondary ml-2" role="button" data-toggle="popover" data-placement="right" data-trigger="focus" title="Texto de ajuda" data-content="Preencha todos os campos com suas devidas informações">Ajuda</a> <br> <br> <br>
+        </div>          
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</div>
+    <footer id="myFooter">
+        <div class="container">
+            <div class="row">
+                 <div class="col-sm-2">
+                    <h4 class="logo"><a href="#"> BlackBird </a></h4>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Páginas</h5>
+                      <ul>
+                        <li><a href="inicio.html">Início</a></li>
+                        <li><a href="cliente.html">Cliente</a></li>
+                        <li><a href="projetos.html">Projetos</a></li>
+                        <li><a href="tarefas.html">Tarefas</a></li>
+                        <li><a href="bibliotecas de documentos.html">Bibliotecas de Documentos</a></li>
+                        <li><a href="cartão tempo.html">Cartão Tempo</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <h5>Suporte</h5>
+                       <ul>
+                        <li><a href="#">Aguardamos ansiosamente seu contato.</a></li>
+                        <li><a href="#">Telefone: (XX) XXXX-XXXX</a></li>
+                      </ul>
+                </div>
+                <div class="col-sm-3">
+                    <div class="social-networks">
+                        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                    </div>
+                    <a href="#">
+                        <button type="button" class="btn btn-default">Contato</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2020 Copyright - BlackBird</p>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- JavaScript Opcinal -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="style/functions.js"></script>
+    <script>
+      $(function (){
+        $('[data-toggle="popover"]').popover()
+      })
+    </script>
+  </body>
+</html>
