@@ -1,0 +1,11 @@
+.navbar-collapse .nav-link{
+	transition: all .5s;
+}
+
+.navbar-collapse .nav-link:hover{
+	background-color: rgb(237, 237, 237) !important;
+	color: black !important;
+	transition: all .5s;
+}
+
+
